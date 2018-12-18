@@ -2,8 +2,9 @@
   "name": "firstapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://clam0696.github.io/firstapp/",
+  "homepage": "https://clam0626.github.io/blog/",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-router": "^4.3.1",
