@@ -21,11 +21,11 @@ class App extends Component {
         
         <Link to='/about'><Category style={{width: '25%', height: '100%'}}
             title='ABOUT' background={AboutImage} position='-73px 0'/></Link>
-        <Category style={{width: '25%', height: '100%'}} 
-            title='BLOG' background={BlogImage} position='-300px 0'/>
+        <Link to='/blog'><Category style={{width: '25%', height: '100%'}} 
+            title='BLOG' background={BlogImage} position='-300px 0'/></Link>
         
-        <Category style={{width: '25%', height: '100%'}} 
-            title='CONTACT' background={ContactImage} position='-30px 0'/>            
+        <Link to='/contact'><Category style={{width: '25%', height: '100%'}} 
+            title='CONTACT' background={ContactImage} position='-30px 0'/></Link>         
 
       </div>
       
